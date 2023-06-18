@@ -14,18 +14,21 @@ h1,h2,h3 {
   border-width: 1px;
 }
 
-/* all tags (*) under (>) the body, */
 body > * {
   text-align: center;
 }
 
-/* . for class */
 .skills-header {
   color:rebeccapurple;
 }
 
+a {
+  color: red;
+}
 
-
+.languages-list li{
+  list-style-image:url('./assets/globe.png');
+}
 
 /* Do not change any CSS below this line. */
 h1 {
